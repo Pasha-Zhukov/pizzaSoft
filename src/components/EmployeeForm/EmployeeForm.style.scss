@@ -1,0 +1,23 @@
+.employee-form {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 23px;
+  input {
+    padding: 0.5rem;
+    font-size: 23px;
+  }
+  select {
+    padding: 0.5rem;
+    font-size: 23px;
+  }
+  button {
+    font-size: 23px;
+  }
+  .error {
+    font-size: 16;
+    margin-left: 0.5rem;
+    color: red;
+  }
+}

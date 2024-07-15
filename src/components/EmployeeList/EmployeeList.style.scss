@@ -1,0 +1,14 @@
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+  a {
+    width: 25%;
+  }
+  .employee-item {
+    color: white;
+    padding: 1rem;
+    border: 1px solid white;
+  }
+}
