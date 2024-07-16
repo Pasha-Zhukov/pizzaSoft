@@ -3,21 +3,28 @@
   align-items: start;
   flex-direction: column;
   gap: 0.5rem;
-  font-size: 23px;
-  input {
+  font-size: var(--font-size-medium);
+  .form-control {
     padding: 0.5rem;
-    font-size: 23px;
+    font-size: var(--font-size-medium);
+    width: 14rem;
+  }
+  .form-check-input {
+    width: auto;
   }
   select {
+    font-size: var(--font-size-medium);
     padding: 0.5rem;
-    font-size: 23px;
+    width: 14rem;
   }
   button {
-    font-size: 23px;
+    font-size: var(--font-size-medium);
+    padding: 0.5rem;
+    width: 14rem;
   }
   .error {
-    font-size: 16;
+    font-size: var(--font-size-small);
     margin-left: 0.5rem;
-    color: red;
+    color: var(--error-color);
   }
 }

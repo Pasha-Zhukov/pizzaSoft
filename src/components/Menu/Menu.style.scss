@@ -1,17 +1,25 @@
 .menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-start;
+  gap: 0.4rem;
+  flex-wrap: wrap;
   align-items: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   button {
     padding: 0.6rem;
-    font-size: 18px;
+    font-size: 1.125rem;
     a {
       color: black;
     }
   }
   select {
     padding: 0.7rem;
-    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 48rem) {
+  .menu button,
+  .menu select {
+    width: 100%;
   }
 }

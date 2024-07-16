@@ -11,6 +11,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --font-size-small: 16px;
+  --font-size-medium: 23px;
+
+  --error-color: #f5222d;
+  --text-color: #fff;
 }
 a:-webkit-any-link {
   text-decoration: none;
